@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: wheat;
+}
+
+
+.container {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.card {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color:white;
+}
+
+.card:nth-child(3) {
+    margin-right: 0px;
+}
+
+.card:nth-child(6) {
+    margin-right: 0px;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+    margin-left: 25%;
+
+}
+    
+.title {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text {
+    color: gray;
+    text-align: center;
+}
